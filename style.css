@@ -1,10 +1,4 @@
-/******* Bootstrap Theming ********/
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -54,7 +48,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
-/* Floating Social Media Widget */
+
 .floating-social {
     position: fixed;
     top: 50%;
@@ -90,23 +84,22 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .floating-social-ig { background-color: #E1306C; }
 .floating-social-li { background-color: #0A66C2; }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
-    /* Make social widget smaller on mobile */
+  
     .floating-social-btn {
         width: 38px;
         height: 38px;
         font-size: 18px;
     }
     
-    /* Scale down hCaptcha to prevent overflow on mobile devices */
     .h-captcha {
         transform: scale(0.85);
         transform-origin: 0 0;
     }
 }
 
-/* Navbar Responsive Touch-ups */
+
 @media (max-width: 991.98px) {
     .navbar-toggler {
         border: none;
